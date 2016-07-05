@@ -1,4 +1,4 @@
-/**
+/*
  * @author Samuel Bernheim
  * @email bernheim@brandeis.edu
  *
@@ -13,7 +13,7 @@ import java.util.Arrays;
 public class Stack<T> {
 
     /**
-     * when a Stack is created, top is set to -1 because it is initially empty and the default constructor is used.
+     * When a Stack is created, top is set to -1 because it is initially empty and the default constructor is used.
      */
     // top is used to keep track of the index of the most recent element that was pushed into the array
     private int top = -1;
@@ -80,7 +80,6 @@ public class Stack<T> {
 
     /**
      * Running Time --> O(1)
-     * Returns the size of the stack.
      * @return the size of the stack.
      */
     public int size(){
@@ -89,7 +88,6 @@ public class Stack<T> {
 
     /**
      * Running Time --> O(1)
-     * Returns a string representation of a stack.
      * @return A string representation of the stack.
      */
     public String toString(){

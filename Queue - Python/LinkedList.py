@@ -18,7 +18,7 @@ class LinkedList:
         if self.head.nextNode is None:
             self.head.nextNode = val_to_add
             val_to_add.prevNode = self.head
-            self.tail = self.head.nextNode 
+            self.tail = val_to_add
         else:
             self.tail.nextNode = val_to_add
             val_to_add.prevNode = self.tail
