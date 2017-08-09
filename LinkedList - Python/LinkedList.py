@@ -18,7 +18,7 @@ class LinkedList:
         if self.head.nextNode is None:
             self.head.nextNode = val_to_add
             val_to_add.prevNode = self.head
-            self.tail = self.head.nextNode 
+            self.tail = self.head.nextNode
         else:
             self.tail.nextNode = val_to_add
             val_to_add.prevNode = self.tail
@@ -46,7 +46,7 @@ class LinkedList:
     def head(self):
         return self.head
 
-    def change_had(self, val):
+    def change_head(self, val):
         self.head.set_data(val)
 
     def tail(self):
